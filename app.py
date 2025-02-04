@@ -8,7 +8,7 @@ def create_polaroid(image, output_size=(1100, 1400), frame_width=40, bottom_fram
     # Calcular o tamanho da imagem a ser ajustado dentro da polaroid
     img_width, img_height = img.size
     frame_width = 40
-    bottom_frame_height = 100
+    bottom_frame_height = 200
     
     # Ajustando as dimensões da imagem para caber na área disponível da polaroid
     available_width = output_size[0] - 2 * frame_width  # Subtrair a moldura esquerda e direita
